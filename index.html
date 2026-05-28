@@ -1214,7 +1214,7 @@ function updateScopeLabels(){
 }
 
 async function callAPI(prompt, maxTok){
-  const resp = await fetch('https://api.anthropic.com/v1/messages', {
+  const resp = await fetch('https://square-brook-4ca1.ernaromarov1996.workers.dev/', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
